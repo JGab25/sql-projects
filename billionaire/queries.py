@@ -10,6 +10,7 @@ DROPDOWN_QUERY = [
     "CITY_WISE_DISTRIBUTION",
     "NET_WORTH_GROWTH",
     "LIFE_EXPECTANCY_AND_WEALTH_CORRELATION",
+    "KIT"
     ];
 
 SAMPLE_QUERY = """
@@ -269,4 +270,9 @@ UNION ALL
 SELECT * FROM NetWorthAboveMedian
 UNION ALL
 SELECT * FROM LifeExpectancyStats;
+"""
+
+
+KIT_QUERY = """
+SELECT * from df;
 """
